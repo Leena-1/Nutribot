@@ -1,9 +1,0 @@
-food_name,food_name_normalized,source_datasets,energy_kcal,protein_g,total_fat_g,carbohydrates_g,fiber_g,sugars_g,sodium_mg,potassium_mg,calcium_mg,iron_mg,vitamin_a_iu,vitamin_c_mg,cholesterol_mg,saturated_fat_g,suitable_diabetes,suitable_blood_pressure,suitable_heart,diet_type,recommendation_notes
-Butter,,usda,,,,,,,,,,,,,,,,,,,
-Broccoli,,usda,,,,,,,,,,,,,,,,,,,
-Chicken breast,,usda,,,,,,,,,,,,,,,,,,,
-Oatmeal,oatmeal,meals;disease;diet_recommendation,150.0,5.0,3.0,27.0,4.0,,0.0,,,,,,,,1.0,1.0,1.0,Vegan,Good for diabetes and BP
-Apple,apple,meals,95.0,0.5,0.3,25.0,4.0,,2.0,,,,,,,,,,,,
-Broccoli,broccoli,disease;diet_recommendation,,,,,,,,,,,,,,,1.0,1.0,1.0,Vegan,High fiber; good for heart
-Butter,butter,disease,,,,,,,,,,,,,,,0.0,0.0,0.0,,
-Chicken breast,chicken breast,disease,,,,,,,,,,,,,,,1.0,1.0,1.0,,

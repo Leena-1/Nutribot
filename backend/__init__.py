@@ -1,1 +1,0 @@
-# Nutribot FastAPI backend
