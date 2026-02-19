@@ -1,0 +1,39 @@
+name: nutribot
+description: AI Food Nutrition & Disease Risk Prediction Chatbot
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  http: ^1.1.0
+  image_picker: ^1.0.4
+  flutter_image_compress: ^2.3.0
+  shared_preferences: ^2.2.2
+  crypto: ^3.0.3
+  
+  # State Management
+  provider: ^6.1.1
+  
+  # Authentication (Firebase - optional, can use local auth)
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.15.3
+  
+  # UI Enhancements
+  google_fonts: ^6.1.0
+  smooth_page_indicator: ^1.1.0
+  flutter_animate: ^4.5.0
+  shimmer: ^3.0.0
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
