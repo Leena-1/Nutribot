@@ -1,0 +1,55 @@
+﻿Analyzing mobile_app...                                         
+
+warning - Unused import: 'package:nutribot/screens/scan_screen.dart' - lib\main.dart:12:8 - unused_import
+   info - Don't invoke 'print' in production code - lib\providers\usage_provider.dart:26:7 - avoid_print
+   info - Don't use 'BuildContext's across async gaps - lib\screens\chat_history_screen.dart:80:30 - use_build_context_synchronously
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\chat_screen.dart:305:55 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\chat_screen.dart:409:41 - deprecated_member_use
+warning - Unused import: 'package:google_fonts/google_fonts.dart' - lib\screens\home_screen.dart:2:8 - unused_import
+warning - Unused import: 'package:nutribot/providers/auth_provider.dart' - lib\screens\home_screen.dart:8:8 - unused_import
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\home_screen.dart:50:35 - deprecated_member_use
+warning - The '!' will have no effect because the receiver can't be null - lib\screens\login_screen.dart:61:30 - unnecessary_non_null_assertion
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\profile_screen.dart:121:47 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\profile_screen.dart:244:33 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\profile_screen.dart:255:28 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\results_screen.dart:33:42 - deprecated_member_use
+warning - Unused import: 'dart:io' - lib\screens\scan_screen.dart:1:8 - unused_import
+   info - Don't use 'BuildContext's across async gaps - lib\screens\scan_screen.dart:124:20 - use_build_context_synchronously
+  error - The constructor being called isn't a const constructor - lib\screens\settings_screen.dart:10:13 - const_with_non_const
+warning - The '!' will have no effect because the receiver can't be null - lib\screens\signup_screen.dart:87:30 - unnecessary_non_null_assertion
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\screens\signup_screen.dart:206:21 - deprecated_member_use
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\screens\signup_screen.dart:234:23 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\splash_screen.dart:48:39 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\splash_screen.dart:78:39 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\subscription_screen.dart:48:45 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\subscription_screen.dart:135:45 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\subscription_screen.dart:225:33 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\welcome_screen.dart:178:47 - deprecated_member_use
+warning - The declaration '_getClient' isn't referenced - lib\services\api_service.dart:32:15 - unused_element
+   info - Unnecessary use of string interpolation - lib\services\api_service.dart:52:26 - unnecessary_string_interpolations
+   info - Don't invoke 'print' in production code - lib\services\auth_service.dart:31:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\auth_service.dart:66:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\auth_service.dart:101:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\auth_service.dart:112:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\auth_service.dart:123:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\cache_service.dart:29:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\cache_service.dart:51:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\cache_service.dart:75:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\chat_history_service.dart:34:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\chat_history_service.dart:48:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\chat_history_service.dart:59:7 - avoid_print
+   info - The import of 'package:image_picker/image_picker.dart' is unnecessary because all of the used elements are also provided by the import of 'package:flutter_image_compress/flutter_image_compress.dart' - lib\services\image_service.dart:4:8 - unnecessary_import
+   info - Don't invoke 'print' in production code - lib\services\image_service.dart:40:7 - avoid_print
+   info - Unnecessary braces in a string interpolation - lib\services\image_service.dart:40:32 - unnecessary_brace_in_string_interps
+   info - Unnecessary braces in a string interpolation - lib\services\image_service.dart:40:51 - unnecessary_brace_in_string_interps
+   info - Unnecessary braces in a string interpolation - lib\services\image_service.dart:40:76 - unnecessary_brace_in_string_interps
+   info - Don't invoke 'print' in production code - lib\services\image_service.dart:44:7 - avoid_print
+warning - The operand can't be 'null', so the condition is always 'false' - lib\services\image_service.dart:62:26 - unnecessary_null_comparison
+   info - Don't invoke 'print' in production code - lib\services\image_service.dart:66:7 - avoid_print
+   info - Unnecessary braces in a string interpolation - lib\services\image_service.dart:66:32 - unnecessary_brace_in_string_interps
+   info - Unnecessary braces in a string interpolation - lib\services\image_service.dart:66:51 - unnecessary_brace_in_string_interps
+   info - Unnecessary braces in a string interpolation - lib\services\image_service.dart:66:76 - unnecessary_brace_in_string_interps
+   info - Don't invoke 'print' in production code - lib\services\image_service.dart:70:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\image_service.dart:83:7 - avoid_print
+  error - The name 'MyApp' isn't a class - test\widget_test.dart:16:35 - creation_with_non_type
+

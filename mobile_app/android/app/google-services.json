@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "780512057347",
+    "project_id": "nutribot-faef6",
+    "storage_bucket": "nutribot-faef6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780512057347:android:4f12d8ee0aae9c5e841636",
+        "android_client_info": {
+          "package_name": "com.example.nutribot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzcVIG4qKDC-z8fynq1_cICG_xM93i33A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,30 @@
+## Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+backend/firebase-key.json
+firebase-key.json
+
+
+## Env / secrets
+.env
+
+## IDE / tooling
+.cursor/
+.vscode/
+.idea/
+
+## OS
+.DS_Store
+Thumbs.db
+
+## Datasets (keep processed outputs, ignore raw downloads)
+datasets/raw/
+datasets/usda/
+
